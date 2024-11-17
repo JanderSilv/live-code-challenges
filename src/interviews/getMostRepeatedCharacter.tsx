@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 type Return = {
   mostRepeatedChar: string
   calculate: () => void

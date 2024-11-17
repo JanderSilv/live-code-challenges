@@ -1,14 +1,7 @@
 // import { subsets } from './subsets'
 // import { validParenthesesTest } from './validParentheses'
 
-import { judge } from './turing_code_challenge/townJudge'
+import { removeDuplicates } from './leetcode/array-string/medium/removeDuplicatesFromSortedArray2'
 
-// validParenthesesTest()
-// console.log(subsets([1, 2, 3]))
-console.log(
-  judge([
-    [1, 3],
-    [2, 3],
-    [3, 1],
-  ])
-)
+let nums = [0, 0, 1, 1, 1, 2, 2, 3, 3, 4]
+console.log(removeDuplicates(nums))
