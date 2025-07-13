@@ -1,4 +1,4 @@
-var isPalindrome = function (head) {
+const isPalindrome = head => {
   let auxHead = head
   const stack = []
 
